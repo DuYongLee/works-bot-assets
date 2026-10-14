@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" role="img" aria-label="happy robot face">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1">
+      <stop offset="0%" stop-color="#f9f9f9"/>
+      <stop offset="100%" stop-color="#edf3f8"/>
+    </linearGradient>
+    <linearGradient id="shell" x1="0" x2="1">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#dfeaf5"/>
+    </linearGradient>
+    <linearGradient id="screen" x1="0" x2="1">
+      <stop offset="0%" stop-color="#031b38"/>
+      <stop offset="100%" stop-color="#0b2d4d"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="50%" r="60%">
+      <stop offset="0%" stop-color="#41d6ff" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#26baf8" stop-opacity="0.15"/>
+    </radialGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="16" stdDeviation="18" flood-color="#7cb1d6" flood-opacity="0.28"/>
+    </filter>
+  </defs>
+
+  <rect width="800" height="800" fill="url(#bg)"/>
+
+  <g filter="url(#shadow)">
+    <path d="M192 270 C200 150, 600 150, 608 270 L608 530 C608 626, 526 694, 403 694 C287 694, 192 629, 192 530 Z" fill="url(#shell)"/>
+    <path d="M226 284 C234 193, 563 193, 574 284 L574 535 C574 610, 511 646, 400 646 C289 646, 226 611, 226 535 Z" fill="url(#screen)"/>
+    <path d="M248 300 C270 200, 530 200, 552 302" fill="none" stroke="#ffffff" stroke-opacity="0.65" stroke-width="18" stroke-linecap="round"/>
+
+    <g>
+      <rect x="230" y="230" width="115" height="42" rx="18" fill="#e6f2f9" stroke="#c5d9eb" stroke-width="3"/>
+      <rect x="455" y="230" width="115" height="42" rx="18" fill="#e6f2f9" stroke="#c5d9eb" stroke-width="3"/>
+    </g>
+
+    <circle cx="305" cy="400" r="70" fill="url(#glow)" opacity="0.5"/>
+    <circle cx="495" cy="400" r="70" fill="url(#glow)" opacity="0.5"/>
+
+    <path d="M245 413 C280 373, 328 365, 353 404" fill="none" stroke="#36d5ff" stroke-width="18" stroke-linecap="round"/>
+    <path d="M452 413 C487 373, 535 365, 560 404" fill="none" stroke="#36d5ff" stroke-width="18" stroke-linecap="round"/>
+
+    <path d="M330 522 C372 552, 428 552, 470 522" fill="none" stroke="#36d5ff" stroke-width="18" stroke-linecap="round"/>
+    <path d="M350 514 C370 490, 430 490, 450 514" fill="none" stroke="#36d5ff" stroke-width="12" stroke-linecap="round"/>
+
+    <circle cx="300" cy="402" r="12" fill="#36d5ff"/>
+    <circle cx="500" cy="402" r="12" fill="#36d5ff"/>
+  </g>
+</svg>
